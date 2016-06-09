@@ -1,0 +1,81 @@
+
+body {
+  font-size: 16px;
+}
+
+#header-nav {  
+    background-color: lightgrey;
+    color: black;
+}
+
+
+.text-center {
+    text-align: center;;
+}
+.row .text-center {
+  	background-color: lightgrey;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+. navbar-brand h1 {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list {
+  background-color: yellow;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+
+div h1 {
+  margin: 0 0 0 0;
+}
+
+div.navbar_brand {
+  padding: 0 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+.row, .container section  {
+  	margin: 0 0 0 0;
+  	padding: 0 0 0 0;
+}	
+
+#main-content {
+  padding: 0 0 0 0;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  padding-left: 15px;
+  padding-right: 15px;
+}
